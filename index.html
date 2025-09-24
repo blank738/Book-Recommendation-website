@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecBook</title>
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carattere&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="na">
+        <h1 class="one"><b>RecBook</b></h1>
+    </nav>
+    <div class="container">
+        <div class="book-container">
+            <h2 class="title">Dhesi</h2>
+            <h4 class="author">Manimaaran</h4>
+            <p class="dis"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, deserunt quia error praesentium saepe provident delectus accusantium fuga nostrum laborum ducimus architecto voluptas aspernatur doloribus suscipit qui laboriosam aperiam odit?</p>
+            <b><button onclick="dl()">delete</button></b>
+        </div>
+    </div>
+    <div id="pop">
+    </div>
+    <div id="mes">
+        <h2>Add Your Recomendation</h2>
+        <form id="in">
+            <input type="text" name="Book Name" placeholder="Enter Book title" id="bt">
+            <input type="text" name="author" placeholder="Enter Author Name" id="an">
+            <textarea type="text" name="short discription" placeholder ="Enter short discription" id="di"></textarea>
+            <button id="ad" >Add</button>
+            <button id="can" onclick="canc()">Cancel</button>
+        </form>
+    </div>
+    <button id="add" onclick="showp()">+</button>
+
+</body>
+<script src="jas.js"></script>
+</html>

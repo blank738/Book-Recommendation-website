@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: "Carattere", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.na{
+    background-color: #cf8989;
+    color: black;
+}
+.one{
+    font-size: 50px;
+    padding: 20px;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    display:inline-block;
+    padding: 15px;
+    width: 25%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5%;
+    background-color: black;
+    color: white;
+    margin: 30px;
+}
+.book-container h2{
+    font-size: 35px;
+    color: #cf8989;
+}
+.book-container h4{
+    font-size: 25px;
+}
+.book-container p{
+    font-size: 19px;
+}
+.book-container button{
+    background-color: #cf8989;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Carattere", cursive;
+    border:none;
+    border-radius: 15%;
+    margin-top: 10px;
+}
+#add{
+    background-color: #cf8989;
+    color: white;
+    border-radius: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 40px;
+    bottom: 30px;
+    right: 30px;
+    border:none;
+    position: fixed;
+}
+#pop{
+    background-color: black;
+    opacity: 40%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    bottom: 0%;
+    left:0%;
+    right: 0%;
+    display:none;
+}
+#mes{
+            width: 30%;
+            border-radius: 5%;
+            border-color: black;
+            border-style: solid;
+            border-width: 3px;
+            position:absolute;
+            z-index:2;
+            left: 40%;
+            display:none;
+            padding: 20px;
+            background-color: #cf8989;
+            color: black;
+            top:10%;
+            align-items: center;
+        }
+#bt{
+    margin:5%;
+    padding: 5%;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-bottom: solid black 2px;
+     font-size: 15px;
+}
+#an{
+    margin:5%;
+    padding: 5%;
+    display: block;
+    background-color: transparent;
+    color: black;
+    border: none;
+    border-bottom: solid black 2px;
+     font-size: 15px;
+}
+#di{
+    margin:5%;
+    padding: 5%;
+    display: block;
+    background-color: transparent;
+    border: solid black 2px;
+    color: black;
+    font-size: 15px;
+}
+#ad{
+    margin:5%;
+    padding: 1%;
+    background-color: black;
+    border: none;
+    border: solid black 2px;
+    color: white;
+}
+#can{
+    margin:5%;
+    padding: 1%;
+    color: white;
+    background-color: black;
+    border: solid black 2px;
+}
+#an::placeholder{
+    color: black;
+}
+#bt::placeholder{
+    color: black;
+}
+#di::placeholder{
+    color: black;
+}

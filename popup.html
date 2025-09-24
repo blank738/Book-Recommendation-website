@@ -1,0 +1,58 @@
+<html>
+    <style>
+        #popoup{
+            height:100%;
+            width: 100%;
+            background-color: black;
+            opacity:0.8;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top:0;
+            z-index: 1;;
+            display:none;
+        }
+        #text{
+            width: 40%;
+            border-radius: 5%;
+            position:absolute;
+            z-index:2;
+            left: 30%;
+            display: none;
+            padding: 20px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+        }
+        #but2{
+            left:30%;
+            position:relative;
+            z-index: 3;
+            display:none;
+        }
+    </style>
+    <head>
+        <title>RecBook</title>
+    </head>
+    <body>
+        <button onclick="show()" id="but1">ADD</button>
+        <div id="popoup"></div>
+        <div id="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde itaque ratione aliquid praesentium, libero earum accusantium ipsa sint? Numquam officia aspernatur ipsa? Voluptatem cupiditate saepe unde iusto magnam maxime ipsam.</p></div>
+        <center><button onclick="closepop()"id="but2">CLOSE</button></center>
+    </body>
+    <script>
+        var but1=document.getElementById("but1");
+        var but2=document.getElementById("but2");
+        var pop=document.getElementById("popoup");
+        var val=document.getElementById("text");
+        function show(){
+            pop.style.display="block";
+            val.style.display="block";
+            but2.style.display="block";
+        }
+        function closepop(){
+            pop.style.display="none";
+            val.style.display="none";
+            but2.style.display="none";
+        }
+    </script>
+</html>
